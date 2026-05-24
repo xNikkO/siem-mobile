@@ -1,0 +1,115 @@
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+MANIFEST
+
+# ---------------------------------------------------------------------------
+# Virtual environments
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.env/
+*.venv
+
+# ---------------------------------------------------------------------------
+# Secrets / local config  (NEVER commit credentials)
+# ---------------------------------------------------------------------------
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+config.local.json
+config.local.py
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Persistent app config that contains Splunk username/password.
+# (lives in ~/.siem_mobile/ on the user's machine, but ignore in-repo copies)
+.siem_mobile/
+siem_mobile_config.json
+
+# ---------------------------------------------------------------------------
+# Kivy / Buildozer (Android builds)
+# ---------------------------------------------------------------------------
+.buildozer/
+bin/
+*.apk
+*.aab
+.kivy/
+kivy_*.log
+
+# ---------------------------------------------------------------------------
+# IDE / editors
+# ---------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+.cursorrules
+.history/
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------------------------------------------------------
+# OS junk
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---------------------------------------------------------------------------
+# Logs / runtime / cache
+# ---------------------------------------------------------------------------
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+*.cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
