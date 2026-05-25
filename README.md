@@ -6,7 +6,7 @@ A proof-of-concept **mobile-style SOC console** built in Python + Kivy. It polls
 
 ![SIEM Mobile logo](LogoSIEM.png)
 
-**Live demo (video):** https://www.youtube.com/watch?v=d8IrlOPYAMc
+**Live demo (video):** https://www.youtube.com/watch?v=kFst2ubFmDQ
 
 ---
 
