@@ -1,6 +1,6 @@
 # SIEM-Mobile - Pocket SOC Dashboard for Splunk
 
-**Topic (Seargin Summer Internship):** SIEM & Log Analysis - log aggregation, event correlation, severity classification.
+SIEM & Log Analysis - log aggregation, event correlation, severity classification.
 
 A proof-of-concept **mobile-style SOC console** built in Python + Kivy. It polls Splunk REST API for Sysmon events, classifies them as CRITICAL / WARNING / INFO using rule-based detection, and shows a clean dashboard with searchable alert feed, event detail view, and settings.
 
@@ -172,4 +172,4 @@ SIEM-Mobile-test/
 
 ## License
 
-Educational / internship PoC - free to read and learn from.
+Educational - free to read and learn from.
